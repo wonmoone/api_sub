@@ -1,0 +1,10 @@
+  $(function(){
+    $(".menu_button").click(function(){
+      $("#menubox").fadeIn(200),
+      $(".menu_button").hide();
+    });
+    $(".menu_d_button").click(function(){
+      $("#menubox").fadeOut(200),
+      $(".menu_button").show();
+    });
+ });
